@@ -22,6 +22,11 @@ header {
     height: 400px;
 }
 
+header nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .title {
     display: flex;
     align-items: top;
