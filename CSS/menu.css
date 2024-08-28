@@ -13,7 +13,6 @@ header {
     background-color: rgb(186, 153, 91);
     background-image: url('/downloads/rice.jpg');
     background-blend-mode: overlay ;
-    color: #ffffff;
     display: flex;
     justify-content: space-between;
     background-size: cover;
@@ -32,7 +31,7 @@ header nav a {
     align-items: top;
     padding: 40px;
     gap: 10px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .logo {
@@ -45,7 +44,23 @@ header nav a {
     display: flex;
     gap: 20px;
     padding: 60px;
-    font-size: 25px;
+    font-size: 40px;
+}
+
+@media(max-width: 1046px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 600px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 footer {
@@ -54,10 +69,23 @@ footer {
     padding: 30px;
 }
 
-.footer {
+.lower-footer {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    gap: 80px;
+}
+
+@media(max-width: 680px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .lower-footer {
+        gap: 20px;
+    }
 }
 
 .rights {
