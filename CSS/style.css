@@ -37,31 +37,75 @@ header {
     border-radius: 50%;
 }
 
-header nav a {
-    text-decoration: none;
-    color: #000000;
+.nav {
+    font-size: 40px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 170px;
 }
 
-.nav {
-    display: flex;
-    gap: 20px;
-    padding: 60px;
-    font-size: 40px;
+header nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: #000000;
+    border-radius: 1ch;
+}
+
+.nav a:hover {
+    background-color: rgb(79, 79, 79);
+    color: black;
+}
+
+nav a.active {
+    background-color: rgb(79, 79, 79);
+    color: black;
 }
 
 @media(max-width: 1046px) {
     header {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         font-size: 60px;
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 655px) {
     .nav {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 551px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .nav {
+        padding-top: 0px;
+        font-size: 35px;
+        padding-top: 25px;
+    }
+}
+
+@media(max-width: 412px) {
+    .title {
+        font-size: 50px;
+    }
+    .nav {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 384px) {
+    .nav {
+        font-size: 26px;
     }
 }
 
@@ -124,20 +168,6 @@ header nav a {
     padding-bottom: 20px;
 }
 
-@media(max-width: 770px) {
-    .gourmet {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .photos .gourmet img {
-        width: 440px;
-        height: 340px;
-    }
-}
-
 .photos .chef img {
     width: 440px;
     height: 340px;
@@ -156,6 +186,61 @@ header nav a {
 .sushi {
     display: flex;
     justify-content: center;
+}
+
+@media(max-width: 770px) {
+    .gourmet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .photos .gourmet img {
+        width: 440px;
+        height: 340px;
+    }
+}
+
+@media(max-width: 445px) {
+
+    .photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .photos .gourmet img{
+        width: 380px;
+        height: auto;
+    }
+
+    .photos .chef img{
+        width: 380px;
+        height: auto;
+    }
+
+    .photos .sushi img{
+        width: 380px;
+        height: auto;
+    }
+}
+
+@media(max-width: 390px) {
+    .photos .gourmet img{
+        width: 300px;
+        height: auto;
+    }
+
+    .photos .chef img{
+        width: 300px;
+        height: auto;
+    }
+
+    .photos .sushi img{
+        width: 300px;
+        height: auto;
+    }
 }
 
 .lower-text {
