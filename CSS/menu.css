@@ -159,6 +159,236 @@ nav a.active {
 
 /* ..........Main......... */
 
+.top {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    padding: 15px;
+}
+
+.title-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.app ul {
+    list-style: none;
+}
+
+.app ul li {
+    padding: 5px;
+}
+
+.entrees {
+    display: flex;
+    justify-content: center;
+}
+
+.entrees ul {
+    list-style: none;
+}
+
+.entrees ul li {
+    padding: 5px;
+}
+
+.nigiri-sashimi .singles h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.single {
+    display: flex;
+    justify-content: center;
+}
+
+.nigiri-sashimi .single ul {
+    list-style: none;
+}
+
+.nigiri-sashimi .single ul li {
+    padding: 5px;
+}
+
+.nigiri-sashimi .combinations h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.nigiri-sashimi .combinations ul {
+    list-style: none;
+}
+
+.nigiri-sashimi .combinations ul li {
+    padding: 5px;
+}
+
+.combo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.combination {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.classic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.classics {
+    padding: 10px;
+}
+
+.classics ul {
+    list-style: none;
+}
+
+.classics ul li {
+    padding: 5px;
+}
+
+.rolls .special h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specials {
+    display: flex;
+    justify-content: center;
+}
+
+.specials ul {
+    list-style: none;
+}
+
+.specials ul li {
+    padding: 5px;
+}
+
+.drinks h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.beer h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.beers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.beers ul {
+    list-style: none;
+}
+.beers ul li {
+    padding: 5px;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.beer-price ul {
+    list-style: none;
+}
+
+.beer-price ul li {
+    padding: 5px;
+}
+
+.sake-wine {
+    padding: 10px;
+}
+
+.sake h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.sake-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sake-list ul {
+    list-style: none;
+}
+
+.sake-list ul li {
+    padding: 5px;
+}
+
+.wine h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.wine-list {
+    display: flex;
+    justify-content: center;
+}
+
+.wine-list ul {
+    list-style: none;
+}
+
+.wine-list ul li {
+    padding: 5px;
+}
+
+.beverage {
+    padding-bottom: 10px;
+}
+
+.beverage h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.beverage-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beverage-list ul {
+    list-style: none;
+}
+
+.beverage-list ul li {
+    padding: 5px;
+}
+
+/* ..........Footer......... */
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -168,7 +398,6 @@ footer {
 .footer {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
 }
 
 .lower-footer {
@@ -183,6 +412,7 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        padding-bottom: 10px;
     }
 
     .lower-footer {

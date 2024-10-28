@@ -357,6 +357,10 @@ footer {
 }
 
 @media(max-width: 680px) {
+
+    .container .contactInfo {
+        width: 100%;
+    }
     .footer {
         display: flex;
         flex-direction: column;
